@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cart {
-    private List<Product> products = new ArrayList<>();
+    private List<CartItem> items = new ArrayList<>();
 
-    public void add(Product product) {
-        products.add(product);
+    public void add(CartItem item) {
+        items.add(item);
     }
 
     @Override
     public String toString() {
         return "Cart{" +
-                "products=" + products +
+                "items=" + items +
                 '}';
     }
 }
