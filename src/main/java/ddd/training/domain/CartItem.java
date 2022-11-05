@@ -13,6 +13,10 @@ public class CartItem {
         return product;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
     @Override
     public String toString() {
         return "CartItem{" +
